@@ -1,0 +1,16 @@
+$kind: http-request
+url: http://localhost:3000/api/posts
+method: POST
+headers:
+  Content-Type: application/json
+  x-auth-token: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyIjp7ImlkIjoiNmFiNDZiZTIxMzYxOGEyMWE1Y2FmZTgyIn0sImlhdCI6MTc5MDc5ODY4NiwiZXhwIjoxNzkwODAyMjg2fQ.Ksh7jb7wPE0kw_quCWE-WFxq2OhDFQt-th9vM6W-1oE
+body:
+  type: json
+  content: "{\r
+
+    \    \"title\": \"My First Post\",\r
+
+    \    \"body\": \"This is the content of my first post. It supports **markdown** formatting!\"\r
+
+    }"
+order: 3000

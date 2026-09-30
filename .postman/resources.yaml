@@ -1,0 +1,7 @@
+workspace:
+  id: fd4ce93a-0987-4833-84ad-9ef2ac87e6b6
+cloudResources:
+  collections:
+    ../postman/collections/Post Management: 58227135-75d17684-8743-4c6a-aeee-650c2608dbe4
+    ../postman/collections/User: 58227135-530f80af-489c-4f3d-8f5b-4c8f98d2afec
+    ../postman/collections/My Collection: 58227135-932482e3-d82b-4e90-b98b-c5f387d42912

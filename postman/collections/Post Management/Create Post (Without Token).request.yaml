@@ -1,0 +1,15 @@
+$kind: http-request
+url: http://localhost:3000/api/posts
+method: POST
+headers:
+  Content-Type: application/json
+body:
+  type: json
+  content: "{\r
+
+    \    \"title\": \"My First Post\",\r
+
+    \    \"body\": \"This is the content of my first post. It supoorts **markdown** formatting!\"\r
+
+    }"
+order: 2000

@@ -1,0 +1,13 @@
+$kind: http-request
+url: localhost:3000/api/users
+method: POST
+headers:
+  Content-Type: application/json
+body:
+  type: json
+  content: "{\r
+
+    \    \"name\": \"Michael Scott\"\r
+
+    }"
+order: 4000
